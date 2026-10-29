@@ -12,11 +12,11 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from src import backtest as bt
-from src.data import current_teams, load_fixtures, load_history, standings
-from src.model import fit_cards, fit_corners, fit_goals, goal_markets, top_scores
-from src.odds_api import fetch_odds
-from src.value import combo, ev, fair_odds, kelly, value_table
+import backtest as bt
+from data import current_teams, load_fixtures, load_history, standings
+from model import fit_cards, fit_corners, fit_goals, goal_markets, top_scores
+from odds_api import fetch_odds
+from value import combo, ev, fair_odds, kelly, value_table
 
 st.set_page_config(page_title="Value bets La Liga", page_icon="⚽", layout="wide")
 

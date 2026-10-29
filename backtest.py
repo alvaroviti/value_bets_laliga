@@ -5,8 +5,8 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from .model import XI_DEFAULT, expected_vec, fit_cards, fit_corners, fit_goals, goal_markets
-from .value import implied_no_vig
+from model import XI_DEFAULT, expected_vec, fit_cards, fit_corners, fit_goals, goal_markets
+from value import implied_no_vig
 
 ODDS_SETS = {
     "Bet365 apertura": {"1": "B365H", "X": "B365D", "2": "B365A", "O": "B365>2.5", "U": "B365<2.5"},
